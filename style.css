@@ -1,0 +1,182 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: ##FFFFFF; 
+text-align: center;
+font-family: 'Poppins';
+}
+
+/* SCROLL BAR */
+.element::-webkit-scrollbar { width: 0 !important }
+.element { overflow: -moz-scrollbars-none; }
+.element { -ms-overflow-style: none; }
+
+/* STYLE TEXT */
+
+h1 {
+  color: #92512e;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+h2 {
+  color: #ED795C;
+  font-size: 2em;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+p {
+  margin-bottom: 1em;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 1.2em;
+  color: #30231e;
+}
+
+#challenges {
+  text-align: left;
+}
+
+#mission {
+  text-align: center;
+  color: #ED795C;
+}
+
+#belowneedhelp {
+  text-align: center;
+  color: #ED795C;
+}
+
+#appSource {
+  margin-bottom: 2em;
+  font-size: 1em;
+}
+
+#factSources {
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+/* STYLE IMAGES */
+img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 3em;
+  }
+#cars {
+  border-radius: 25px;
+  width: 25%;
+  padding: 10%;
+}
+@media screen and (max-width: 480px) {
+  .aboutContent {
+    align-items:center;
+  }
+  #cars {
+    border-radius: 25px;
+    width: 50%;
+    padding: 10%;
+  }
+}
+
+/* STYLE HOME PAGE LINKS */
+a.hyperlink:link {
+color: #92512e;
+text-decoration: none;
+}
+
+a.hyperlink:visited {
+color: #92512e;
+text-decoration: none;
+}
+
+a.hyperlink:focus {
+color: #92512e;
+text-decoration: none;
+}
+
+a.hyperlink:hover {
+color: #ED795C;
+text-decoration: none;
+}
+
+a.hyperlink:active {
+color: #bcb0d8;
+text-decoration: none;
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-image: linear-gradient(to bottom left, #92512e,#ED795C,#f5bcca);
+  overflow: hidden;
+  padding: 1em;
+  text-align: right;
+  margin-bottom: 2em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #fcfbf7;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #f5bcca;
+}
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+
+#clickBelow {
+  color: #fcfbf7;
+  text-align: center;
+}
+
+.contactResources {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contactItem {
+  vertical-align: middle;
+  display:inline-block;
+  width:25%;
+  word-wrap: break-word;
+  background-image: linear-gradient(to top right, #92512e,#ED795C,#f5bcca);
+  border-radius: 10px; 
+  margin: 1em;
+  padding: 1em;
+}
+.contactText {
+  vertical-align: middle;
+  text-align: center;
+  color: #fcfbf7;
+}
+
+.aboutContent {
+  display:inline-flex;
+  align-items:center;
+}
+
+#meetTheCreator {
+    overflow: hidden;
+}
